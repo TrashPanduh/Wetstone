@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+  }
+  
+p, a {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+.banner {
+background: url(./images/banner.jpg) center;
+background-size: cover;
+padding: 4rem 2rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+align-items: center;
+padding-right: 20px;
+}
+
+.banner > h1 {
+    font-size: 4rem;
+}
+
+.banner > h1, h2, h3, h4, h5, h6, p {
+    color: white;
+  }
+
+.banner >
+
+.element{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}

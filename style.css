@@ -76,7 +76,7 @@ a:hover {
 }
 
 .buttons > ul > li > figure {
-  background-size: cover;
+  background-size: auto;
   max-height: 220px;
   overflow: hidden;
   border-top-left-radius: .5rem;
@@ -85,7 +85,8 @@ a:hover {
 }
 
 .buttons > ul > li > figure > img {
-  width: 100%;
+  max-width: 220px;
+  object-fit: cover;
 }
 
 .buttons > ul > li > figure > figcaption {
@@ -124,9 +125,12 @@ footer {
   
 }
 
-calendar {
-  display: grid inline-grid;
-  grid-row: 5fr;
-  grid-column: 7fr;
-  background: blue;
+footer > ul {
+  display: inline-flex;
+  padding: 10px;
+  list-style-type: none;
+}
+
+foote > li {
+  padding: 10px;
 }
