@@ -30,6 +30,10 @@ padding-right: 20px;
 .banner >
 
 .element{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+tr {
+padding-left: 20px;
 }
